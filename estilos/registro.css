@@ -1,0 +1,98 @@
+/* Clases del menú */
+nav {
+    margin: 50px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    margin: 0 100px;
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(194, 74, 26);
+    color: cornsilk;
+}
+
+ul>li>a:hover {
+    cursor: pointer;
+    background-color: rgba(194, 74, 26, 0.808);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* Final de las clases del menú */
+
+/* Clases del main */
+main {
+
+    margin: 200px 10px;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+form>div>input {
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px 20px;
+    width: 100%;
+
+
+}
+
+.flexForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+}
+
+.genero {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: crimson;
+    color: rgb(215, 219, 215);
+}
+
+button:hover {
+    background-color: rgba(220, 20, 60, 0.808);
+
+}
+
+/* Terminan las clases del main */
+
+/* Clases del footer */
+footer {
+    margin: 50px;
+}

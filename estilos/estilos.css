@@ -1,0 +1,67 @@
+/* Clases del menú */
+nav {
+    margin: 50px;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    margin: 0 100px;
+    border: solid 1px black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(194, 74, 26);
+    color: cornsilk;
+}
+
+ul>li>a:hover {
+    cursor: pointer;
+    background-color: rgba(194, 74, 26, 0.808);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* Final de las clases del menú */
+
+/* Clases del main */
+div>img {
+    border-radius: 50%;
+}
+
+.flexMain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabla {
+    width: 25%;
+    border: solid 1px;
+}
+
+.alinearTabla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.tituloTabla {
+    text-align: center;
+}
+
+/* Final de las clases del main */
+
+/* Clases del footer  */
+footer {
+    margin: 50px;
+}
+
+/* Terminan las clases del footer */
